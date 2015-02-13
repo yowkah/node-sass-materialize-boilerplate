@@ -1,0 +1,31 @@
+{
+  "name": "rureal_boilerplate",
+  "version": "0.1.0",
+  "description": "boilerplate for private use, sass for css, jade for views, express for http server, ",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "boilerplate"
+  ],
+  "author": "Jouke Ypma",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.11.0",
+    "cookie-parser": "^1.3.3",
+    "express": "^4.11.2",
+    "grunt": "^0.4.5",
+    "jade": "^1.9.2",
+    "morgan": "^1.5.1",
+    "serve-static": "^1.8.1"
+  },
+  "devDependencies": {
+    "grunt-bower-concat": "^0.4.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-sass": "^0.17.0"
+  }
+}

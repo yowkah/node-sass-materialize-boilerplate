@@ -1,0 +1,12 @@
+
+//overwrites defaults for materialize variables directly from the bower package.
+//we dont want to lose our variables if we update our materialize version, do we now?
+@import 'variables.scss';
+
+//list of all components you want to load. By default every component is loaded.
+//file is added so it doesn't interfere with any bower updates on materialize
+@import 'materialize_components.scss';
+
+//all custom styles that need to be included when concatinating all the scss files into a single style.css
+//application.scss is just a collection of files to import
+@import 'styles.scss';
