@@ -7,7 +7,7 @@ module.exports = function(grunt){
         },
         options : {
           includePaths : [
-            './bower_components/materialize/sass/', 'sass/'
+            'bower_components/materialize/sass/', 'sass/'
           ]
         }
       }
