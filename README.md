@@ -1,6 +1,8 @@
 # node-sass-materialize-boilerplate #
 
-Since I was having trouble finding a boilerplate where i could use sass in node with the materialize framework, i did some searching and came across this beautiful boilerplate made by [anotheruiguy](https://github.com/anotheruiguy/node-sass-boilerplate). Since this template helped me on my way to getting a nice little boilerplate for materialized i decided to place it on git to help other people find it.
+Since I was having trouble finding a boilerplate where i could use sass in node with the materialize framework, i did some searching and came across this beautiful boilerplate with top-notch instructions made by [anotheruiguy](https://github.com/anotheruiguy/node-sass-boilerplate). Since this template helped me on my way to getting a nice little boilerplate for materialized i decided to place this version on git to help other people get started with materialize in node. Again, massive props to [anotheruiguy](https://github.com/anotheruiguy/).
+
+How is this repo different: [anotheruiguy](https://github.com/anotheruiguy/)'s github repo is more or less a walkthrough of the steps that he took to create his boilerplate. There is no need to actually clone his repo if you follow the walkthrough. For this project it will be a quick clone small clone and some extra steps to get you a working boilerplate in a couple of minutes tops. 
 
 ## Installing##
 Since i am using linux, i will explain the instructions by using linux commands. Don't worry tho, it should primarily be the same across all OS's.
@@ -15,7 +17,7 @@ Since i am using linux, i will explain the instructions by using linux commands.
         $ git clone https://github.com/yowkah/git-test.git
 ```
 
-3  edit the package.json to change the porject name and author. ( i use gedit for this)
+3  edit the package.json to change the project name and author and any extra packages you wish to install. ( i use gedit for this)
 ```shell
         $ cd git-test | gedit package.json
 ```
