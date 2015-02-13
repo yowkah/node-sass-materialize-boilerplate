@@ -17,7 +17,7 @@ Since i am using linux, i will explain the instructions by using linux commands.
 
 3  edit the package.json to change the porject name and author. ( i use gedit for this)
 ```shell
-        $ cd git-test | gedit package.son
+        $ cd git-test | gedit package.json
 ```
 
 4  install all dependencies using NPM ( node package manager)
